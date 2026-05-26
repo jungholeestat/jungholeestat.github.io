@@ -18,6 +18,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! My name is JungHo. I am a third-year Ph.D. student in the Department of Statistics & Data Science at Carnegie Mellon University, advised by [Edward H. Kennedy](https://www.ehkennedy.com/). I am primarily interested in causal inference, machine learning, and nonparametric statistics, with applications in public policy, health services, and online experimentation. Here is my [CV](https://drive.google.com/file/d/104Zyw8kQXTD_HcrGPtgh_-vjvOzUfWLl/view?usp=sharing).
+Hi! My name is JungHo. I am a fourth-year Ph.D. student in the Department of Statistics & Data Science at Carnegie Mellon University, advised by [Edward H. Kennedy](https://www.ehkennedy.com/) and [Dave Choi](https://www.andrew.cmu.edu/user/davidch/). I also work closely with [Bryan Wilder](https://bryanwilder.github.io/) and [Luke Keele](https://lukekeele.net/). I am primarily interested in causal inference (interference, experimental design, instrumental variables) with applications in public and health services. Here is my [CV](https://drive.google.com/file/d/104Zyw8kQXTD_HcrGPtgh_-vjvOzUfWLl/view?usp=sharing).
 
 Before CMU, I obtained an M.S. in Statistics from the University of Chicago, where I worked on randomization inference and numerical analysis under the guidance of [Panos Toulis](https://www.ptoulis.com/) and [Lek-Heng Lim](https://www.stat.uchicago.edu/~lekheng/), respectively.
