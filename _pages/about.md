@@ -18,7 +18,7 @@ social: true # includes social icons at the bottom of the page
 
 Hi! My name is JungHo. I am a fourth-year Ph.D. student in the Department of Statistics & Data Science at Carnegie Mellon University, advised by [Edward H. Kennedy](https://www.ehkennedy.com/) and [David S. Choi](https://www.andrew.cmu.edu/user/davidch/). I also work closely with [Bryan Wilder](https://bryanwilder.github.io/) and [Luke Keele](https://lukekeele.net/). I am primarily interested in:
 
-* **Causal inference**: experimental design, IV, interference
+* **Causal inference**: experimental design, IV methods, interference
 * **Statistical learning**: nonparametric statistics, measurement error
 * **Application**: public policy, healthcare
 
