@@ -8,8 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p> <sub> junghol@stat.cmu.edu </sub> </p>
+  more_info: 
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -26,4 +25,4 @@ Here is my [CV](https://drive.google.com/file/d/104Zyw8kQXTD_HcrGPtgh_-vjvOzUfWL
 
 Before CMU, I obtained an M.S. in Statistics from the University of Chicago, where I worked on randomization inference and numerical analysis under the guidance of [Panos Toulis](https://www.ptoulis.com/) and [Lek-Heng Lim](https://www.stat.uchicago.edu/~lekheng/), respectively.
 
-I'm always happy to talk about research. If you want to chat, please feel free to reach out!
+I'm always happy to talk about research. If you want to chat, please feel free to reach out to junghol[at]stat[dot]cmu[dot]edu.
