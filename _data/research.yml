@@ -1,0 +1,58 @@
+- year: 2026
+  title: Learning Treatment Effects during Resource Allocation via Priority-Queue Randomization
+  authors: <strong>J. Lee</strong>, J. Sundberg, P. Welle, B. Wilder
+  url: https://arxiv.org/abs/2605.25169
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2605.25169
+  selected: true
+- year: 2025
+  title: Learning Smooth Populations of Parameters with Trial Heterogeneity
+  authors: <strong>J. Lee</strong>, V. Baćak, E. H. Kennedy
+  url: https://arxiv.org/abs/2507.23140
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2507.23140
+    - label: Poster
+      url: https://drive.google.com/file/d/1Cs6Ss7JD6lM09Kqa9dFSWcW3j9Ipl7I5/view?usp=sharing
+  selected: true
+- year: 2025
+  title: Nonparametric Estimation of Local Treatment Effects with Continuous Instruments
+  authors: Z. Zeng, A. W. Levis, <strong>J. Lee</strong>, E. H. Kennedy, L. Keele
+  url: https://arxiv.org/abs/2504.03063
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2504.03063
+- year: 2025
+  title: ML-assisted Randomization Tests for Detecting Treatment Effects in A/B Experiments
+  authors: W. Guo, <strong>J. Lee</strong>, P. Toulis
+  url: https://arxiv.org/abs/2501.07722
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2501.07722
+    - label: Slides
+      url: https://drive.google.com/file/d/10mbghYR3Erc7jcVF2SrfmyxKtCcbScDN/view?usp=sharing
+  selected: true
+- year: 2025
+  title: Summing Divergent Matrix Series
+  authors: R. Wang, <strong>J. Lee</strong>, L.-H. Lim
+  url: https://arxiv.org/abs/2405.19713
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2405.19713
+  venue: Numerische Mathematik
+- year: 2025
+  title: Black-Box Optimization with Implicit Constraints for Public Policy
+  authors: W. Xing, <strong>J. Lee</strong>, C. Liu, S. Zhu
+  url: https://arxiv.org/abs/2310.18449
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2310.18449
+  venue: The AAAI Conference on Artificial Intelligence
+- year: 2023
+  title: "Fisher Meets BART: Integrating Causal Machine Learning with Randomization Tests"
+  authors: <strong>J. Lee</strong>, D. Puelz, P. Toulis
+  url: /assets/pdf/poster_fbart.pdf
+  links:
+    - label: Poster
+      url: /assets/pdf/poster_fbart.pdf

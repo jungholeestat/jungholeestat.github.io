@@ -1,0 +1,32 @@
+{% assign paper = include.paper %}
+<article class="jl-paper">
+  {% if include.selected -%}
+    <span class="jl-number" aria-hidden="true">0{{ include.number }}</span>
+  {%- endif %}
+  <div>
+    <h3>
+      <a href="{% if paper.url contains '://' %}{{ paper.url }}{% else %}{{ paper.url | relative_url }}{% endif %}" target="_blank" rel="noopener">
+        {{- paper.title | escape -}}
+      </a>
+    </h3>
+    <p>
+      {{ paper.authors -}}
+      {%- if include.selected %} · {{ paper.year }}{% endif %}
+    </p>
+    {% if paper.venue and include.selected != true %}
+      <p class="jl-venue">{{ paper.venue | escape }}</p>
+    {% endif %}
+    <div class="jl-paper-links">
+      {% for link in paper.links %}
+        {% unless include.selected and link.label == 'Poster' %}
+          <a href="{% if link.url contains '://' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}" target="_blank" rel="noopener">
+            {{- link.label -}}
+            {%- if include.selected %}
+              <span aria-hidden="true">↗</span>
+            {%- endif -%}
+          </a>
+        {% endunless %}
+      {% endfor %}
+    </div>
+  </div>
+</article>
