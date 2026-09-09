@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {% include metadata.liquid %}
+    <link rel="canonical" href="{{ page.canonical_url | default: page.url | absolute_url }}">
+    {% if page.redirect_to %}<meta http-equiv="refresh" content="0; url={{ page.redirect_to | relative_url }}">{% endif %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&amp;family=Inter:wght@400;500;700&amp;display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url | bust_file_cache }}">
+  </head>
+  <body>
+    <div id="jl-modern-revised">
+      <a class="jl-skip-link" href="#main-content">Skip to content</a>
+      <header class="jl-topbar">
+        {% if page.url == '/' %}
+          <h1 class="jl-site-name">JungHo Lee</h1>
+        {% else %}
+          <div class="jl-site-name"><a href="{{ '/' | relative_url }}">JungHo Lee</a></div>
+        {% endif %}
+        <nav class="jl-nav" aria-label="Site navigation">
+          <a
+            href="{{ '/' | relative_url }}"
+            {% if page.section == 'about' %}
+              aria-current="page"
+            {% endif %}
+            >About</a
+          >
+          <a
+            href="{{ '/research/' | relative_url }}"
+            {% if page.section == 'research' %}
+              aria-current="page"
+            {% endif %}
+            >Research</a
+          >
+          <a
+            href="{{ '/talks/' | relative_url }}"
+            {% if page.section == 'talks' %}
+              aria-current="page"
+            {% endif %}
+            >Talks</a
+          >
+        </nav>
+      </header>
+      <main id="main-content" tabindex="-1">{{ content }}</main>
+      <footer class="jl-footer" id="contact">
+        <span>Carnegie Mellon University · Pittsburgh, PA</span>
+        <span class="jl-contact"><a href="mailto:junghol@stat.cmu.edu">junghol[at]stat[dot]cmu[dot]edu</a></span>
+      </footer>
+    </div>
+  </body>
+</html>
