@@ -45,6 +45,8 @@ jobs:
       group: github-pages
       cancel-in-progress: false
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
       - name: Download validated site
         uses: actions/download-artifact@v4
         with:
