@@ -21,9 +21,6 @@
         {% unless include.selected and link.label == 'Poster' %}
           <a href="{% if link.url contains '://' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}" target="_blank" rel="noopener">
             {{- link.label -}}
-            {%- if include.selected %}
-              <span aria-hidden="true">↗</span>
-            {%- endif -%}
           </a>
         {% endunless %}
       {% endfor %}
