@@ -6,6 +6,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "preview": "vite"
+    "preview": "vite",
+    "format:check": "prettier . --check"
   }
 }
