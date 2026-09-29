@@ -1,8 +1,5 @@
 {% assign paper = include.paper %}
-<article class="jl-paper">
-  {% if include.selected -%}
-    <span class="jl-number" aria-hidden="true">0{{ include.number }}</span>
-  {%- endif %}
+<article class="jl-paper{% if include.selected %} jl-selected-paper{% endif %}">
   <div>
     <h3>
       <a href="{% if paper.url contains '://' %}{{ paper.url }}{% else %}{{ paper.url | relative_url }}{% endif %}" target="_blank" rel="noopener">
@@ -10,8 +7,7 @@
       </a>
     </h3>
     <p>
-      {{ paper.authors -}}
-      {%- if include.selected %} · {{ paper.year }}{% endif %}
+      {{ paper.authors }}
     </p>
     {% if paper.venue and include.selected != true %}
       <p class="jl-venue">{{ paper.venue | escape }}</p>
@@ -26,4 +22,7 @@
       {% endfor %}
     </div>
   </div>
+  {% if include.selected %}
+    <time class="jl-paper-year" datetime="{{ paper.year }}">{{ paper.year }}</time>
+  {% endif %}
 </article>
