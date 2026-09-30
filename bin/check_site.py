@@ -14,7 +14,6 @@ REQUIRED_PAGES = (
     "research/index.html",
     "talks/index.html",
     "publications/index.html",
-    "news/index.html",
     "404.html",
 )
 

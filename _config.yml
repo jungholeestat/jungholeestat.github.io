@@ -15,18 +15,12 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
-  - README.md
   - package.json
   - package-lock.json
-  - vite.config.mjs
   - node_modules/
   - vendor/
-  - _bibliography/
 keep_files: ["CNAME", ".nojekyll"]
 plugins: ["jekyll-sitemap"]
-collections:
-  news:
-    output: false
 defaults:
   - scope:
       path: "assets"
