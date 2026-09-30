@@ -29,8 +29,8 @@
   links:
     - label: arXiv
       url: https://arxiv.org/abs/2504.03063
-- year: 2025
-  title: ML-assisted Randomization Tests for Detecting Treatment Effects in A/B Experiments
+- year: 2026
+  title: ML-assisted Randomization Tests in A/B Experiments
   authors: W. Guo, <strong>J. Lee</strong>, P. Toulis
   url: https://arxiv.org/abs/2501.07722
   links:
