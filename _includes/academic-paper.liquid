@@ -13,8 +13,10 @@
       {{ paper.authors -}}
       {%- if include.selected %} · {{ paper.year }}{% endif %}
     </p>
-    {% if paper.venue and include.selected != true %}
-      <p class="jl-venue">{{ paper.venue | escape }}</p>
+    {% if paper.venue %}
+      <p class="jl-venue">
+        <span class="jl-venue-label">{{ paper.venue | escape }}</span>
+      </p>
     {% endif %}
     <div class="jl-paper-links">
       {% for link in paper.links %}

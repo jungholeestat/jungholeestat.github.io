@@ -258,8 +258,19 @@ body {
 #jl-modern-revised .jl-research-view .jl-paper {
   display: block;
 }
-#jl-modern-revised .jl-research-view .jl-venue {
-  font-style: italic;
+#jl-modern-revised .jl-paper .jl-venue {
+  margin-top: 8px;
+  font-style: normal;
+}
+#jl-modern-revised .jl-venue-label {
+  display: inline-block;
+  background: #f0f1f9;
+  color: var(--jl-accent);
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.6;
 }
 #jl-modern-revised .jl-talks-heading {
   margin-bottom: 23px;
