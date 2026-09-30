@@ -1,7 +1,6 @@
 - year: 2026
   title: Synthetic-Powered Directional Testing
   authors: Y. Byun*, <strong>J. Lee*</strong>, L. Kania, E. Dobriban, B. Wilder
-  selected: true
 - year: 2026
   title: Minimax Rates for Learning Smooth Populations of Parameters
   authors: <strong>J. Lee</strong>, E. H. Kennedy
@@ -23,7 +22,6 @@
       url: https://arxiv.org/abs/2507.23140
     - label: Poster
       url: https://drive.google.com/file/d/1Cs6Ss7JD6lM09Kqa9dFSWcW3j9Ipl7I5/view?usp=sharing
-  selected: true
 - year: 2025
   title: Nonparametric Estimation of Local Treatment Effects with Continuous Instruments
   authors: Z. Zeng, A. W. Levis, <strong>J. Lee</strong>, E. H. Kennedy, L. Keele
