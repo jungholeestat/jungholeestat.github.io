@@ -1,4 +1,12 @@
 - year: 2026
+  title: Synthetic-Powered Directional Testing
+  authors: Y. Byun*, <strong>J. Lee*</strong>, L. Kania, E. Dobriban, B. Wilder
+  selected: true
+- year: 2026
+  title: Minimax Rates for Learning Smooth Populations of Parameters
+  authors: <strong>J. Lee</strong>, Edward H. Kennedy
+  selected: true
+- year: 2026
   title: Learning Treatment Effects during Resource Allocation via Priority-Queue Randomization
   authors: <strong>J. Lee</strong>, J. Sundberg, P. Welle, B. Wilder
   url: https://arxiv.org/abs/2605.25169
@@ -49,7 +57,7 @@
   links:
     - label: arXiv
       url: https://arxiv.org/abs/2310.18449
-  venue: The AAAI Conference on Artificial Intelligence
+  venue: AAAI 2025
 - year: 2023
   title: "Fisher Meets BART: Integrating Causal Machine Learning with Randomization Tests"
   authors: <strong>J. Lee</strong>, D. Puelz, P. Toulis
