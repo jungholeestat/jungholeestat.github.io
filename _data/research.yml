@@ -33,6 +33,7 @@
     - label: Slides
       url: https://drive.google.com/file/d/10mbghYR3Erc7jcVF2SrfmyxKtCcbScDN/view?usp=sharing
   selected: true
+  venue: NeurIPS 2026
 - year: 2025
   title: Summing Divergent Matrix Series
   authors: R. Wang, <strong>J. Lee</strong>, L.-H. Lim
