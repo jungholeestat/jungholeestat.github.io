@@ -4,6 +4,10 @@
 - year: 2026
   title: Minimax Rates for Learning Smooth Populations of Parameters
   authors: <strong>J. Lee</strong>, E. H. Kennedy
+  url: https://arxiv.org/abs/2610.04135
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2610.04135
   selected: true
 - year: 2026
   title: Learning Treatment Effects during Resource Allocation via Priority-Queue Randomization
