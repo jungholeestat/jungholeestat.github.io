@@ -1,13 +1,22 @@
 {% assign paper = include.paper %}
-<article class="jl-paper">
+<article
+  class="jl-paper"
+  {% if include.filterable %}
+    data-tags="{{ paper.tags | join: '|' | escape }}"
+  {% endif %}
+>
   {% if include.selected -%}
     <span class="jl-number" aria-hidden="true">0{{ include.number }}</span>
   {%- endif %}
   <div>
     <h3>
-      <a href="{% if paper.url contains '://' %}{{ paper.url }}{% else %}{{ paper.url | relative_url }}{% endif %}" target="_blank" rel="noopener">
-        {{- paper.title | escape -}}
-      </a>
+      {% if paper.url %}
+        <a href="{% if paper.url contains '://' %}{{ paper.url }}{% else %}{{ paper.url | relative_url }}{% endif %}" target="_blank" rel="noopener">
+          {{- paper.title | escape -}}
+        </a>
+      {% else %}
+        {{ paper.title | escape }}
+      {% endif %}
     </h3>
     <p>
       {{ paper.authors -}}
@@ -26,6 +35,9 @@
           </a>
         {% endunless %}
       {% endfor %}
+      {% if include.filterable and paper.tags %}
+        <span class="jl-paper-topics">{{ paper.tags | join: ' · ' | escape }}</span>
+      {% endif %}
     </div>
   </div>
 </article>

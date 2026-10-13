@@ -1,6 +1,7 @@
 - year: 2026
   title: Synthetic-Powered Directional Testing
   authors: Y. Byun*, <strong>J. Lee*</strong>, L. Kania, E. Dobriban, B. Wilder
+  tags: [AI]
 - year: 2026
   title: Minimax Rates for Learning Smooth Populations of Parameters
   authors: <strong>J. Lee</strong>, E. H. Kennedy
@@ -9,6 +10,7 @@
     - label: arXiv
       url: https://arxiv.org/abs/2610.04135
   selected: true
+  tags: [Nonparametric statistics]
 - year: 2026
   title: Learning Treatment Effects during Resource Allocation via Priority-Queue Randomization
   authors: <strong>J. Lee</strong>, J. Sundberg, P. Welle, B. Wilder
@@ -17,6 +19,7 @@
     - label: arXiv
       url: https://arxiv.org/abs/2605.25169
   selected: true
+  tags: [Causal inference, Experiments]
 - year: 2026
   title: Learning Smooth Populations of Parameters with Trial Heterogeneity
   authors: <strong>J. Lee</strong>, V. Baćak, E. H. Kennedy
@@ -27,6 +30,7 @@
     - label: Poster
       url: https://drive.google.com/file/d/1Cs6Ss7JD6lM09Kqa9dFSWcW3j9Ipl7I5/view?usp=sharing
   venue: Electronic Journal of Statistics
+  tags: [Nonparametric statistics]
 - year: 2025
   title: Nonparametric Estimation of Local Treatment Effects with Continuous Instruments
   authors: Z. Zeng, A. W. Levis, <strong>J. Lee</strong>, E. H. Kennedy, L. Keele
@@ -34,6 +38,7 @@
   links:
     - label: arXiv
       url: https://arxiv.org/abs/2504.03063
+  tags: [Causal inference, Nonparametric statistics]
 - year: 2026
   title: ML-assisted Randomization Tests in A/B Experiments
   authors: W. Guo, <strong>J. Lee</strong>, P. Toulis
@@ -45,6 +50,7 @@
       url: https://drive.google.com/file/d/10mbghYR3Erc7jcVF2SrfmyxKtCcbScDN/view?usp=sharing
   selected: true
   venue: NeurIPS 2026
+  tags: [Causal inference, Experiments]
 - year: 2025
   title: Summing Divergent Matrix Series
   authors: R. Wang, <strong>J. Lee</strong>, L.-H. Lim
@@ -53,6 +59,7 @@
     - label: arXiv
       url: https://arxiv.org/abs/2405.19713
   venue: Numerische Mathematik
+  tags: [Others]
 - year: 2025
   title: Black-Box Optimization with Implicit Constraints for Public Policy
   authors: W. Xing, <strong>J. Lee</strong>, C. Liu, S. Zhu
@@ -61,6 +68,7 @@
     - label: arXiv
       url: https://arxiv.org/abs/2310.18449
   venue: AAAI 2025
+  tags: [Others]
 - year: 2023
   title: "Fisher Meets BART: Integrating Causal Machine Learning with Randomization Tests"
   authors: <strong>J. Lee</strong>, D. Puelz, P. Toulis
@@ -68,3 +76,4 @@
   links:
     - label: Poster
       url: /assets/pdf/poster_fbart.pdf
+  tags: [Causal inference, Experiments]
