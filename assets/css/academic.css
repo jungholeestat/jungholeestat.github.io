@@ -223,7 +223,7 @@ body {
 }
 #jl-modern-revised .jl-footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   flex-wrap: wrap;
   gap: 12px;
   padding-top: 23px;
@@ -247,7 +247,8 @@ body {
   letter-spacing: -0.3px;
   margin-bottom: 25px;
 }
-#jl-modern-revised .jl-research-year {
+#jl-modern-revised .jl-research-year,
+#jl-modern-revised .jl-talks-year {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.4;
