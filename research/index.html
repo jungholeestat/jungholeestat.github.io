@@ -19,7 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&amp;family=Inter:wght@400;500;700&amp;display=swap"
       rel="stylesheet"
     >
-    <link rel="stylesheet" href="/assets/css/academic.css?4a3f13e0ce2708b8d939b37cbc17dcaa">
+    <link rel="stylesheet" href="/assets/css/academic.css?198994146252c2c2e2f919886527a1be">
   </head>
   <body>
     <div id="jl-modern-revised">
@@ -48,19 +48,46 @@
           >
         </nav>
       </header>
-      <main id="main-content" tabindex="-1"><div class="jl-research-view">
+      <main id="main-content" tabindex="-1"><div class="jl-research-view" id="research">
   <h1 class="jl-research-heading">Research</h1>
+  <div class="jl-research-controls" hidden="">
+    <div class="jl-search-wrap">
+      <span class="jl-search-icon" aria-hidden="true"></span>
+      <input id="research-search" type="search" aria-label="Search research" placeholder="Search titles, authors, or topics…" autocomplete="off" />
+    </div>
+    <div class="jl-research-filters" role="group" aria-label="Filter research by topic">
+      <button type="button" data-tag="" aria-pressed="true">All</button>
+      
+      
+        <button type="button" data-tag="Causal inference" aria-pressed="false">Causal inference</button>
+      
+        <button type="button" data-tag="Experiments" aria-pressed="false">Experiments</button>
+      
+        <button type="button" data-tag="Nonparametric statistics" aria-pressed="false">Nonparametric statistics</button>
+      
+        <button type="button" data-tag="AI" aria-pressed="false">AI</button>
+      
+        <button type="button" data-tag="Others" aria-pressed="false">Others</button>
+      
+    </div>
+    <div class="jl-research-status">
+      <span id="research-count" role="status" aria-live="polite"></span>
+      <button id="research-reset" type="button" hidden="">Clear filters</button>
+    </div>
+  </div>
   
   
-    <section aria-label="Research from 2026">
+    <section aria-label="Research from 2026" data-research-year="2026">
       <h2 class="jl-research-year">2026</h2>
       
         
-<article class="jl-paper">
+<article class="jl-paper" data-tags="AI">
   
   <div>
     <h3>
-      <a href="" target="_blank" rel="noopener">Synthetic-Powered Directional Testing</a>
+      
+        Synthetic-Powered Directional Testing
+      
     </h3>
     <p>
       Y. Byun*, <strong>J. Lee*</strong>, L. Kania, E. Dobriban, B. Wilder
@@ -68,17 +95,22 @@
     
     <div class="jl-paper-links">
       
+      
+        <span class="jl-paper-topics">AI</span>
+      
     </div>
   </div>
 </article>
 
       
         
-<article class="jl-paper">
+<article class="jl-paper" data-tags="Nonparametric statistics">
   
   <div>
     <h3>
-      <a href="https://arxiv.org/abs/2610.04135" target="_blank" rel="noopener">Minimax Rates for Learning Smooth Populations of Parameters</a>
+      
+        <a href="https://arxiv.org/abs/2610.04135" target="_blank" rel="noopener">Minimax Rates for Learning Smooth Populations of Parameters</a>
+      
     </h3>
     <p>
       <strong>J. Lee</strong>, E. H. Kennedy
@@ -90,17 +122,22 @@
           <a href="https://arxiv.org/abs/2610.04135" target="_blank" rel="noopener">arXiv</a>
         
       
+      
+        <span class="jl-paper-topics">Nonparametric statistics</span>
+      
     </div>
   </div>
 </article>
 
       
         
-<article class="jl-paper">
+<article class="jl-paper" data-tags="Causal inference|Experiments">
   
   <div>
     <h3>
-      <a href="https://arxiv.org/abs/2605.25169" target="_blank" rel="noopener">Learning Treatment Effects during Resource Allocation via Priority-Queue Randomization</a>
+      
+        <a href="https://arxiv.org/abs/2605.25169" target="_blank" rel="noopener">Learning Treatment Effects during Resource Allocation via Priority-Queue Randomization</a>
+      
     </h3>
     <p>
       <strong>J. Lee</strong>, J. Sundberg, P. Welle, B. Wilder
@@ -112,17 +149,22 @@
           <a href="https://arxiv.org/abs/2605.25169" target="_blank" rel="noopener">arXiv</a>
         
       
+      
+        <span class="jl-paper-topics">Causal inference · Experiments</span>
+      
     </div>
   </div>
 </article>
 
       
         
-<article class="jl-paper">
+<article class="jl-paper" data-tags="Nonparametric statistics">
   
   <div>
     <h3>
-      <a href="https://arxiv.org/abs/2507.23140" target="_blank" rel="noopener">Learning Smooth Populations of Parameters with Trial Heterogeneity</a>
+      
+        <a href="https://arxiv.org/abs/2507.23140" target="_blank" rel="noopener">Learning Smooth Populations of Parameters with Trial Heterogeneity</a>
+      
     </h3>
     <p>
       <strong>J. Lee</strong>, V. Baćak, E. H. Kennedy
@@ -142,17 +184,22 @@
           <a href="https://drive.google.com/file/d/1Cs6Ss7JD6lM09Kqa9dFSWcW3j9Ipl7I5/view?usp=sharing" target="_blank" rel="noopener">Poster</a>
         
       
+      
+        <span class="jl-paper-topics">Nonparametric statistics</span>
+      
     </div>
   </div>
 </article>
 
       
         
-<article class="jl-paper">
+<article class="jl-paper" data-tags="Causal inference|Experiments">
   
   <div>
     <h3>
-      <a href="https://arxiv.org/abs/2501.07722" target="_blank" rel="noopener">ML-assisted Randomization Tests in A/B Experiments</a>
+      
+        <a href="https://arxiv.org/abs/2501.07722" target="_blank" rel="noopener">ML-assisted Randomization Tests in A/B Experiments</a>
+      
     </h3>
     <p>
       W. Guo, <strong>J. Lee</strong>, P. Toulis
@@ -172,6 +219,9 @@
           <a href="https://drive.google.com/file/d/10mbghYR3Erc7jcVF2SrfmyxKtCcbScDN/view?usp=sharing" target="_blank" rel="noopener">Slides</a>
         
       
+      
+        <span class="jl-paper-topics">Causal inference · Experiments</span>
+      
     </div>
   </div>
 </article>
@@ -179,15 +229,17 @@
       
     </section>
   
-    <section aria-label="Research from 2025">
+    <section aria-label="Research from 2025" data-research-year="2025">
       <h2 class="jl-research-year">2025</h2>
       
         
-<article class="jl-paper">
+<article class="jl-paper" data-tags="Causal inference|Nonparametric statistics">
   
   <div>
     <h3>
-      <a href="https://arxiv.org/abs/2504.03063" target="_blank" rel="noopener">Nonparametric Estimation of Local Treatment Effects with Continuous Instruments</a>
+      
+        <a href="https://arxiv.org/abs/2504.03063" target="_blank" rel="noopener">Nonparametric Estimation of Local Treatment Effects with Continuous Instruments</a>
+      
     </h3>
     <p>
       Z. Zeng, A. W. Levis, <strong>J. Lee</strong>, E. H. Kennedy, L. Keele
@@ -199,17 +251,22 @@
           <a href="https://arxiv.org/abs/2504.03063" target="_blank" rel="noopener">arXiv</a>
         
       
+      
+        <span class="jl-paper-topics">Causal inference · Nonparametric statistics</span>
+      
     </div>
   </div>
 </article>
 
       
         
-<article class="jl-paper">
+<article class="jl-paper" data-tags="Others">
   
   <div>
     <h3>
-      <a href="https://arxiv.org/abs/2405.19713" target="_blank" rel="noopener">Summing Divergent Matrix Series</a>
+      
+        <a href="https://arxiv.org/abs/2405.19713" target="_blank" rel="noopener">Summing Divergent Matrix Series</a>
+      
     </h3>
     <p>
       R. Wang, <strong>J. Lee</strong>, L.-H. Lim
@@ -225,17 +282,22 @@
           <a href="https://arxiv.org/abs/2405.19713" target="_blank" rel="noopener">arXiv</a>
         
       
+      
+        <span class="jl-paper-topics">Others</span>
+      
     </div>
   </div>
 </article>
 
       
         
-<article class="jl-paper">
+<article class="jl-paper" data-tags="Others">
   
   <div>
     <h3>
-      <a href="https://arxiv.org/abs/2310.18449" target="_blank" rel="noopener">Black-Box Optimization with Implicit Constraints for Public Policy</a>
+      
+        <a href="https://arxiv.org/abs/2310.18449" target="_blank" rel="noopener">Black-Box Optimization with Implicit Constraints for Public Policy</a>
+      
     </h3>
     <p>
       W. Xing, <strong>J. Lee</strong>, C. Liu, S. Zhu
@@ -251,6 +313,9 @@
           <a href="https://arxiv.org/abs/2310.18449" target="_blank" rel="noopener">arXiv</a>
         
       
+      
+        <span class="jl-paper-topics">Others</span>
+      
     </div>
   </div>
 </article>
@@ -258,15 +323,17 @@
       
     </section>
   
-    <section aria-label="Research from 2023">
+    <section aria-label="Research from 2023" data-research-year="2023">
       <h2 class="jl-research-year">2023</h2>
       
         
-<article class="jl-paper">
+<article class="jl-paper" data-tags="Causal inference|Experiments">
   
   <div>
     <h3>
-      <a href="/assets/pdf/poster_fbart.pdf" target="_blank" rel="noopener">Fisher Meets BART: Integrating Causal Machine Learning with Randomization Tests</a>
+      
+        <a href="/assets/pdf/poster_fbart.pdf" target="_blank" rel="noopener">Fisher Meets BART: Integrating Causal Machine Learning with Randomization Tests</a>
+      
     </h3>
     <p>
       <strong>J. Lee</strong>, D. Puelz, P. Toulis
@@ -278,6 +345,9 @@
           <a href="/assets/pdf/poster_fbart.pdf" target="_blank" rel="noopener">Poster</a>
         
       
+      
+        <span class="jl-paper-topics">Causal inference · Experiments</span>
+      
     </div>
   </div>
 </article>
@@ -285,7 +355,10 @@
       
     </section>
   
+  <p class="jl-research-empty" hidden="">No papers match your search.</p>
 </div>
+<script src="/assets/js/research.js?4c6bc00a0a8f40f06aa99bd139de846a" defer=""></script>
+
 </main>
       <footer class="jl-footer" id="contact">
         <span class="jl-contact"><a href="mailto:junghol@stat.cmu.edu">junghol[at]stat[dot]cmu[dot]edu</a></span>
