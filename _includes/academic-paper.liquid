@@ -22,7 +22,18 @@
       {{ paper.authors -}}
       {%- if include.selected %} · {{ paper.year }}{% endif %}
     </p>
-    {% if paper.venue %}
+    {% if include.filterable %}
+      {% if paper.venue or paper.tags %}
+        <div class="jl-paper-meta">
+          {% if paper.venue %}
+            <span class="jl-venue-label">{{ paper.venue | escape }}</span>
+          {% endif %}
+          {% if paper.tags %}
+            <span class="jl-paper-topics">{{ paper.tags | join: ' · ' | escape }}</span>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% elsif paper.venue %}
       <p class="jl-venue">
         <span class="jl-venue-label">{{ paper.venue | escape }}</span>
       </p>
@@ -35,9 +46,6 @@
           </a>
         {% endunless %}
       {% endfor %}
-      {% if include.filterable and paper.tags %}
-        <span class="jl-paper-topics">{{ paper.tags | join: ' · ' | escape }}</span>
-      {% endif %}
     </div>
   </div>
 </article>

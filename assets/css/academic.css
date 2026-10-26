@@ -217,6 +217,7 @@ body {
 #jl-modern-revised .jl-paper .jl-paper-links {
   display: flex;
   flex-wrap: wrap;
+  align-items: baseline;
   gap: 18px;
   font-size: 12px;
   margin-top: 8px;
@@ -357,8 +358,16 @@ body {
   text-underline-offset: 3px;
   cursor: pointer;
 }
+#jl-modern-revised .jl-paper-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 12px;
+  margin-top: 8px;
+}
 #jl-modern-revised .jl-paper-topics {
   font-size: 11px;
+  line-height: 1.6;
   color: var(--jl-muted);
 }
 #jl-modern-revised .jl-research-empty {
