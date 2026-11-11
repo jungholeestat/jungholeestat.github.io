@@ -392,6 +392,9 @@ body {
 #jl-modern-revised .jl-talks-heading {
   margin-bottom: 23px;
 }
+#jl-modern-revised:has(.jl-talks-view) .jl-topbar {
+  border-bottom-color: transparent;
+}
 #jl-modern-revised .jl-talk-list {
   list-style: none;
   margin: 0;
@@ -401,8 +404,8 @@ body {
   display: grid;
   grid-template-columns: 102px minmax(0, 1fr);
   column-gap: 24px;
-  padding: 17px 0;
-  border-bottom: 1px solid var(--jl-rule);
+  padding: 4px 0;
+  border-bottom: 1px solid transparent;
 }
 #jl-modern-revised .jl-talk-list time {
   font-family: "Inter", Arial, sans-serif;
@@ -412,18 +415,17 @@ body {
   padding-top: 4px;
 }
 #jl-modern-revised .jl-talk-list h3 {
+  display: inline;
   font-family: "EB Garamond", Georgia, serif;
   font-size: 16px;
   line-height: 1.45;
   font-weight: 500;
 }
-#jl-modern-revised .jl-talk-list p {
-  color: var(--jl-muted);
-  font-size: 12px;
-  margin-top: 5px;
-}
-#jl-modern-revised .jl-talk-list .jl-upcoming {
+#jl-modern-revised .jl-talk-list .jl-inline-label {
+  font: 400 12px/1.6 "Inter", Arial, sans-serif;
   color: var(--jl-accent);
+  white-space: nowrap;
+  margin-inline-start: 0.45em;
 }
 @media (max-width: 850px) {
   #jl-modern-revised .jl-intro {
