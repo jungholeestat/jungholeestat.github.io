@@ -422,7 +422,10 @@ body {
   font-weight: 500;
 }
 #jl-modern-revised .jl-talk-list .jl-inline-label {
-  font: 400 12px/1.6 "Inter", Arial, sans-serif;
+  font:
+    400 12px/1.6 "Inter",
+    Arial,
+    sans-serif;
   color: var(--jl-accent);
   white-space: nowrap;
   margin-inline-start: 0.45em;
