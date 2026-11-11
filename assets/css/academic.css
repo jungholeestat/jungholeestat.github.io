@@ -172,8 +172,7 @@ body {
   margin-bottom: 8px;
   border-top: 1px solid var(--jl-rule);
 }
-#jl-modern-revised .jl-section-title h2,
-#jl-modern-revised .jl-talks-heading {
+#jl-modern-revised .jl-section-title h2 {
   color: var(--jl-accent);
   font-family: "EB Garamond", Georgia, serif;
   font-size: 29px;
@@ -390,7 +389,15 @@ body {
   line-height: 1.6;
 }
 #jl-modern-revised .jl-talks-heading {
-  margin-bottom: 23px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+#jl-modern-revised .jl-talks-view > section:first-of-type .jl-talks-year {
+  margin-top: 0;
 }
 #jl-modern-revised:has(.jl-talks-view) .jl-topbar {
   border-bottom-color: transparent;
