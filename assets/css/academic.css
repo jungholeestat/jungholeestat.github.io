@@ -221,18 +221,6 @@ body {
   font-size: 12px;
   margin-top: 8px;
 }
-#jl-modern-revised .jl-footer {
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  gap: 12px;
-  padding-top: 23px;
-  color: var(--jl-muted);
-  font-size: 11px;
-}
-#jl-modern-revised .jl-contact {
-  overflow-wrap: anywhere;
-}
 #jl-modern-revised .jl-talks-view,
 #jl-modern-revised .jl-research-view {
   padding-top: 39px;
@@ -547,9 +535,6 @@ body {
 }
 #jl-modern-revised .jl-skip-link:focus {
   transform: none;
-}
-#jl-modern-revised .jl-contact a {
-  color: inherit;
 }
 @media print {
   #jl-modern-revised {
