@@ -15,7 +15,7 @@ section: about
 <div class="jl-inline-links">
 <a aria-label="Curriculum vitae" href="https://drive.google.com/file/d/104Zyw8kQXTD_HcrGPtgh_-vjvOzUfWLl/view?usp=sharing" rel="noopener" target="_blank">CV</a>
 <a href="https://scholar.google.com/citations?hl=en&amp;user=dX7fpu4AAAAJ" rel="noopener" target="_blank">Google Scholar</a>
-<a href="#contact">Contact</a>
+<a href="mailto:junghol@stat.cmu.edu">Contact</a>
 </div>
 </div>
 <aside class="jl-interests">
