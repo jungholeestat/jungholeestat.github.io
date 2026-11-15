@@ -131,7 +131,7 @@ body {
   white-space: nowrap;
 }
 #jl-modern-revised .jl-interests {
-  border-left: 1px solid var(--jl-rule);
+  border-left: 1px solid transparent;
   padding-left: 24px;
 }
 #jl-modern-revised .jl-interest-group + .jl-interest-group {
@@ -170,7 +170,7 @@ body {
   gap: 14px;
   padding-top: 24px;
   margin-bottom: 8px;
-  border-top: 1px solid var(--jl-rule);
+  border-top: 1px solid transparent;
 }
 #jl-modern-revised .jl-section-title h2 {
   color: var(--jl-accent);
@@ -185,7 +185,7 @@ body {
   grid-template-columns: 31px minmax(0, 1fr);
   gap: 12px;
   padding: 19px 0 20px;
-  border-bottom: 1px solid var(--jl-rule);
+  border-bottom: 1px solid transparent;
 }
 #jl-modern-revised .jl-number {
   color: var(--jl-muted);
@@ -387,7 +387,7 @@ body {
 #jl-modern-revised .jl-talks-view > section:first-of-type .jl-talks-year {
   margin-top: 0;
 }
-#jl-modern-revised:has(.jl-talks-view) .jl-topbar {
+#jl-modern-revised:has(.jl-talks-view, .jl-intro, .jl-research-view) .jl-topbar {
   border-bottom-color: transparent;
 }
 #jl-modern-revised .jl-talk-list {
@@ -432,7 +432,7 @@ body {
   #jl-modern-revised .jl-interests {
     grid-column: 1/-1;
     border-left: 0;
-    border-top: 1px solid var(--jl-rule);
+    border-top: 1px solid transparent;
     padding: 21px 0 0;
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -484,7 +484,7 @@ body {
   #jl-modern-revised .jl-interests {
     grid-template-columns: 1fr;
     border-left: 0;
-    border-top: 1px solid var(--jl-rule);
+    border-top: 1px solid transparent;
     padding: 22px 0 0;
   }
   #jl-modern-revised .jl-talk-list li {
