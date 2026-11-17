@@ -226,15 +226,6 @@ body {
   padding-top: 39px;
   padding-bottom: 35px;
 }
-#jl-modern-revised .jl-research-heading {
-  color: var(--jl-accent);
-  font-family: "EB Garamond", Georgia, serif;
-  font-size: 29px;
-  line-height: 1.2;
-  font-weight: 500;
-  letter-spacing: -0.3px;
-  margin-bottom: 25px;
-}
 #jl-modern-revised .jl-research-year,
 #jl-modern-revised .jl-talks-year {
   font-size: 16px;
@@ -376,6 +367,7 @@ body {
   font-weight: 500;
   line-height: 1.6;
 }
+#jl-modern-revised .jl-research-heading,
 #jl-modern-revised .jl-talks-heading {
   position: absolute;
   width: 1px;
